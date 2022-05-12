@@ -9,3 +9,65 @@ body{
     background-color: #fff;
     font-family: 'Fredoka', sans-serif;
 }
+
+.white{
+    color: #fff;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+a{
+    color: cornflowerblue;
+}
+
+/* Generics */
+.container{
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+h1{
+    color: #e53170;
+    text-align: center;
+    margin: 30px;
+}
+
+p{
+    text-align: center;
+    margin: 50px 0;
+}
+
+img{
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+.cards-box{
+    width: 100%;
+}
+
+.card{
+    width: 33%;
+    height: 110px;
+    float: left;
+   background-color: black;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.bio{
+    padding-left: 120px;
+    padding-top: 10px;
+    width: calc(100%-100px);
+}
+
